@@ -11,9 +11,10 @@ export default function Home() {
     <main className="relative">
       <LanguageToggle />
       <Hero />
-
+<div id="details">
       <CountdownTimer />
-      <div id="details">
+      </div>
+      <div >
         <EventCard
           id="wedding"
           eventKey="wedding"
