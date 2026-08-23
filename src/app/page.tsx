@@ -25,7 +25,7 @@ export default function Home() {
         <EventCard
           id="reception"
           eventKey="reception"
-          mapHref="https://share.google/9s2wEQAg8dQemLNpV"
+          mapHref="https://maps.app.goo.gl/59r6hmAakKUwRSJi9"
         />
         
       </div>

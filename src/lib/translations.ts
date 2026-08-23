@@ -20,7 +20,7 @@ export const translations = {
       date: "31 August 2026",
       time: "11:00 AM",
       venueName: "Sri Vishwakarma Samudaya Bhavana",
-      venueAddress: "Rajnagar, Sringeri, Karnataka",
+      venueAddress: "Rajnagara, Sringeri, Karnataka",
       directions: "Get Directions →",
     },
     reception: {
@@ -58,7 +58,7 @@ export const translations = {
     hostedBy: {
       eyebrow: "ಅತೀವ ಸಂತೋಷದಿಂದ",
       names: "ಶ್ರೀಮತಿ ವಿನುತಾ ಮತ್ತು ಶ್ರೀ ಪ್ರಶಾಂತ್ ಜೆ. ಆಚಾರ್ಯ",
-      place: "ಮುಕ್ಕುಗುಡ್ಡೆ, ಶಿವಮರ",
+      place: "ಮುಳ್ಳುಗುಡ್ಡೆ, ಶಿವಪುರ",
       relation: "ಅವರ ಸಹೋದರ ಪ್ರದೀಪ್ ಆಚಾರ್ಯ ಅವರ ವಿವಾಹಕ್ಕೆ ನಿಮ್ಮನ್ನು ಆಹ್ವಾನಿಸುತ್ತಾರೆ",
     },
     wedding: {
