@@ -9,7 +9,7 @@ export const translations = {
     },
     hostedBy: {
       eyebrow: "With Great Joy",
-      names: "Smt. Vinuta & Sri Prashant G. Acharya",
+      names: "Smt. Vinuta & Sri Prashanth G. Acharya",
       place: "Mullugudde, Shivapura",
       relation: "invite you to the wedding of their brother, Pradeep Acharya",
     },
