@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { useLanguage } from "@/lib/LanguageContext";
+import { translations } from "@/lib/translations";
 
 // Wedding muhurtham: 31 Aug 2026, 11:00 AM IST
 const TARGET_DATE = new Date("2026-08-31T11:00:00+05:30").getTime();
@@ -18,6 +20,8 @@ function getTimeLeft() {
 
 export default function CountdownTimer() {
   const [time, setTime] = useState<ReturnType<typeof getTimeLeft> | null>(null);
+  const { lang } = useLanguage();
+  const t = translations[lang].countdown;
 
   useEffect(() => {
     setTime(getTimeLeft());
@@ -26,15 +30,15 @@ export default function CountdownTimer() {
   }, []);
 
   const units = [
-    { label: "Days", value: time?.days },
-    { label: "Hours", value: time?.hours },
-    { label: "Mins", value: time?.minutes },
-    { label: "Secs", value: time?.seconds },
+    { label: t.days, value: time?.days },
+    { label: t.hours, value: time?.hours },
+    { label: t.mins, value: time?.minutes },
+    { label: t.secs, value: time?.seconds },
   ];
 
   return (
     <section className="px-6 py-10 text-center">
-      <p className="text-xs uppercase tracking-[0.3em] text-brass mb-5">Counting down to the muhurtham</p>
+      <p className="text-xs uppercase tracking-[0.3em] text-brass mb-5">{t.label}</p>
       <div className="mx-auto flex max-w-sm justify-center gap-3 sm:gap-5">
         {units.map((u) => (
           <motion.div

@@ -4,23 +4,19 @@ import EventCard from "@/components/EventCard";
 import CountdownTimer from "@/components/CountdownTimer";
 import Blessing from "@/components/Blessing";
 import Footer from "@/components/Footer";
+import LanguageToggle from "@/components/LanguageToggle";
 
 export default function Home() {
   return (
     <main className="relative">
+      <LanguageToggle />
       <Hero />
-      <HostedBy />
+      
 
       <div id="details">
         <EventCard
           id="wedding"
-          eyebrow="The Wedding"
-          title="Ceremony"
-          day="Monday"
-          date="31 August 2026"
-          time="11:00 AM"
-          venueName="Sri Vishwakarma Samudaya Bhavana"
-          venueAddress="Udupi district, Karnataka"
+          eventKey="wedding"
           mapHref="https://maps.app.goo.gl/eTXK8sBSBKqz68wR8"
         />
 
@@ -28,18 +24,14 @@ export default function Home() {
 
         <EventCard
           id="reception"
-          eyebrow="The Reception"
-          title="Celebration"
-          day="Wednesday"
-          date="2 September 2026"
-          time="6:00 PM onwards"
-          venueName="Mangalya Sabhabhavana"
-          venueAddress="Perdoor, Udupi district, Karnataka"
+          eventKey="reception"
           mapHref="https://share.google/9s2wEQAg8dQemLNpV"
         />
+        
       </div>
 
       <Blessing />
+      <HostedBy />
       <Footer />
     </main>
   );

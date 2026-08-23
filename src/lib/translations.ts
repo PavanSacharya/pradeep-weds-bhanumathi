@@ -1,0 +1,98 @@
+export const translations = {
+  en: {
+    hero: {
+      badge: "Save the Date · 31.08.2026",
+      name1: "Pradeep",
+      name2: "Bhanumathi",
+      subtitle: "With hearts full and love in the air, we invite you to be part of our forever.",
+      cta: "See the Details",
+    },
+    hostedBy: {
+      eyebrow: "With Great Joy",
+      names: "Smt. Vinuta & Sri Prashant J. Acharya",
+      place: "Mullugudde, Shivapura",
+      relation: "invite you to the wedding of their brother, Pradeep Acharya",
+    },
+    wedding: {
+      eyebrow: "The Wedding",
+      title: "Ceremony",
+      day: "Monday",
+      date: "31 August 2026",
+      time: "11:00 AM",
+      venueName: "Sri Vishwakarma Samudaya Bhavana",
+      venueAddress: "Rajnagar, Sringeri, Karnataka",
+      directions: "Get Directions →",
+    },
+    reception: {
+      eyebrow: "The Reception",
+      title: "Celebration",
+      day: "Wednesday",
+      date: "2 September 2026",
+      time: "6:00 PM onwards",
+      venueName: "Mangalya Sabhabhavana",
+      venueAddress: "Perdoor, Udupi district, Karnataka",
+      directions: "Get Directions →",
+    },
+    countdown: {
+      label: "Counting down to the muhurtham",
+      days: "Days",
+      hours: "Hours",
+      mins: "Mins",
+      secs: "Secs",
+    },
+    blessing: {
+      quote: "Two rings, two hearts, one beautiful beginning — join us as we say \"I do.\"",
+    },
+    footer: {
+      note: "With love from both families",
+    },
+  },
+  kn: {
+    hero: {
+      badge: "ದಿನಾಂಕ ನಿಗದಿಪಡಿಸಿ · 31.08.2026",
+      name1: "ಪ್ರದೀಪ್",
+      name2: "ಭಾನುಮತಿ",
+      subtitle: "ಪ್ರೀತಿ ತುಂಬಿದ ಹೃದಯಗಳಿಂದ, ನಮ್ಮ ಶಾಶ್ವತ ಬಂಧದ ಭಾಗವಾಗಲು ನಿಮ್ಮನ್ನು ಆಹ್ವಾನಿಸುತ್ತೇವೆ.",
+      cta: "ವಿವರಗಳನ್ನು ನೋಡಿ",
+    },
+    hostedBy: {
+      eyebrow: "ಅತೀವ ಸಂತೋಷದಿಂದ",
+      names: "ಶ್ರೀಮತಿ ವಿನುತಾ ಮತ್ತು ಶ್ರೀ ಪ್ರಶಾಂತ್ ಜೆ. ಆಚಾರ್ಯ",
+      place: "ಮುಕ್ಕುಗುಡ್ಡೆ, ಶಿವಮರ",
+      relation: "ಅವರ ಸಹೋದರ ಪ್ರದೀಪ್ ಆಚಾರ್ಯ ಅವರ ವಿವಾಹಕ್ಕೆ ನಿಮ್ಮನ್ನು ಆಹ್ವಾನಿಸುತ್ತಾರೆ",
+    },
+    wedding: {
+      eyebrow: "ವಿವಾಹ",
+      title: "ವಿಧಿ",
+      day: "ಸೋಮವಾರ",
+      date: "೩೧ ಆಗಸ್ಟ್ ೨೦೨೬",
+      time: "ಬೆಳಗ್ಗೆ 11:00",
+      venueName: "ಶ್ರೀ ವಿಶ್ವಕರ್ಮ ಸಮುದಾಯ ಭವನ",
+      venueAddress: "ಉಡುಪಿ ಜಿಲ್ಲೆ, ಕರ್ನಾಟಕ",
+      directions: "ದಾರಿ ತೋರಿಸಿ →",
+    },
+    reception: {
+      eyebrow: "ಆರತಕ್ಷತೆ",
+      title: "ಸಂಭ್ರಮ",
+      day: "ಬುಧವಾರ",
+      date: "೦೨ ಸೆಪ್ಟೆಂಬರ್ ೨೦೨೬",
+      time: "ಸಂಜೆ 6:00 ರಿಂದ",
+      venueName: "ಮಾಂಗಲ್ಯ ಸಭಾಭವನ",
+      venueAddress: "ಪೆರ್ಡೂರು, ಉಡುಪಿ ಜಿಲ್ಲೆ, ಕರ್ನಾಟಕ",
+      directions: "ದಾರಿ ತೋರಿಸಿ →",
+    },
+    countdown: {
+      label: "ಮುಹೂರ್ತಕ್ಕೆ ಕ್ಷಣಗಣನೆ",
+      days: "ದಿನಗಳು",
+      hours: "ಗಂಟೆಗಳು",
+      mins: "ನಿಮಿಷಗಳು",
+      secs: "ಸೆಕೆಂಡುಗಳು",
+    },
+    blessing: {
+      quote: "ಎರಡು ಉಂಗುರಗಳು, ಎರಡು ಹೃದಯಗಳು, ಒಂದು ಸುಂದರ ಆರಂಭ — ನಾವು 'ಒಪ್ಪುತ್ತೇನೆ' ಎಂದು ಹೇಳುವಾಗ ನಮ್ಮೊಂದಿಗೆ ಸೇರಿ.",
+    },
+    footer: {
+      note: "ಎರಡೂ ಕುಟುಂಬಗಳ ಪ್ರೀತಿಯಿಂದ",
+    },
+  },
+} as const;

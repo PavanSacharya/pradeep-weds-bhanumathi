@@ -17,6 +17,7 @@ const config: Config = {
       fontFamily: {
         display: ["var(--font-playfair)", "serif"],
         body: ["var(--font-inter)", "sans-serif"],
+        kannada: ["var(--font-kannada)", "serif"],
       },
       backgroundImage: {
         "grain": "radial-gradient(circle at 1px 1px, rgba(139,105,20,0.08) 1px, transparent 0)",

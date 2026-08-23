@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
+import { Playfair_Display, Inter, Noto_Serif_Kannada } from "next/font/google";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -12,6 +12,12 @@ const inter = Inter({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600"],
   variable: "--font-inter",
+});
+
+const kannada = Noto_Serif_Kannada({
+  subsets: ["kannada"],
+  weight: ["400", "600", "700"],
+  variable: "--font-kannada",
 });
 
 // ---- EDIT THESE before deploying ----
@@ -53,11 +59,13 @@ export const viewport: Viewport = {
   themeColor: "#8A1538",
 };
 
+import { LanguageProvider } from "@/lib/LanguageContext";
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${playfair.variable} ${inter.variable} font-body`}>
-        {children}
+      <body className={`${playfair.variable} ${inter.variable} ${kannada.variable} font-body`}>
+        <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
   );

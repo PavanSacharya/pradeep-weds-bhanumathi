@@ -1,10 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useLanguage } from "@/lib/LanguageContext";
+import { translations } from "@/lib/translations";
 
 const petals = Array.from({ length: 12 });
 
 export default function Hero() {
+  const { lang } = useLanguage();
+  const t = translations[lang].hero;
+  const fontCls = lang === "kn" ? "font-kannada" : "font-display";
+
   return (
     <section className="relative min-h-[100svh] flex flex-col items-center justify-center overflow-hidden px-6 py-16 text-center">
       {/* soft gradient blobs */}
@@ -32,7 +38,7 @@ export default function Hero() {
         transition={{ duration: 0.6 }}
         className="mb-6 inline-flex items-center gap-2 rounded-full border border-gold/40 bg-white/60 px-4 py-1.5 text-xs uppercase tracking-[0.25em] text-brass backdrop-blur-sm"
       >
-        Save the Date · 31.08.2026
+        {t.badge}
       </motion.p>
 
       <motion.div
@@ -41,8 +47,8 @@ export default function Hero() {
         transition={{ duration: 0.9, ease: "easeOut", delay: 0.1 }}
         className="relative"
       >
-        <h1 className="font-display text-balance text-5xl sm:text-7xl leading-[1.05] text-maroonDark">
-          Pradeep
+        <h1 className={`${fontCls} text-balance text-5xl sm:text-7xl leading-[1.05] text-maroonDark`}>
+          {t.name1}
         </h1>
         <motion.div
           initial={{ scaleX: 0 }}
@@ -57,8 +63,8 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="mx-auto my-4 h-px w-24 origin-center bg-gradient-to-r from-transparent via-gold to-transparent"
         />
-        <h1 className="font-display text-balance text-5xl sm:text-7xl leading-[1.05] text-maroonDark">
-          Bhanumathi
+        <h1 className={`${fontCls} text-balance text-5xl sm:text-7xl leading-[1.05] text-maroonDark`}>
+          {t.name2}
         </h1>
       </motion.div>
 
@@ -68,7 +74,7 @@ export default function Hero() {
         transition={{ delay: 0.9, duration: 0.7 }}
         className="mt-8 max-w-xs text-sm text-maroonDark/70 leading-relaxed"
       >
-        Together with their families, we're tying the knot — and we'd love for you to be there.
+        {t.subtitle}
       </motion.p>
 
       <motion.a
@@ -78,7 +84,7 @@ export default function Hero() {
         transition={{ delay: 1.2, duration: 0.7 }}
         className="mt-10 inline-flex items-center gap-2 rounded-full bg-maroon px-7 py-3 text-sm font-medium text-ivory shadow-lg shadow-maroon/20 transition-transform hover:scale-105 active:scale-95"
       >
-        See the Details
+        {t.cta}
       </motion.a>
     </section>
   );
