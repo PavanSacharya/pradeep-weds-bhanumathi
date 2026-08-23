@@ -11,8 +11,8 @@ export default function Home() {
     <main className="relative">
       <LanguageToggle />
       <Hero />
-      
 
+      <CountdownTimer />
       <div id="details">
         <EventCard
           id="wedding"
@@ -20,14 +20,14 @@ export default function Home() {
           mapHref="https://maps.app.goo.gl/eTXK8sBSBKqz68wR8"
         />
 
-        <CountdownTimer />
+
 
         <EventCard
           id="reception"
           eventKey="reception"
           mapHref="https://maps.app.goo.gl/59r6hmAakKUwRSJi9"
         />
-        
+
       </div>
 
       <Blessing />
