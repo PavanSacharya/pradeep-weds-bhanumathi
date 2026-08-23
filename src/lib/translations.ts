@@ -68,7 +68,7 @@ export const translations = {
       date: "೩೧ ಆಗಸ್ಟ್ ೨೦೨೬",
       time: "ಬೆಳಗ್ಗೆ 11:00",
       venueName: "ಶ್ರೀ ವಿಶ್ವಕರ್ಮ ಸಮುದಾಯ ಭವನ",
-      venueAddress: "ಉಡುಪಿ ಜಿಲ್ಲೆ, ಕರ್ನಾಟಕ",
+      venueAddress: "ರಾಜನಗರ, ಶೃಂಗೇರಿ, ಕರ್ನಾಟಕ",
       directions: "ದಾರಿ ತೋರಿಸಿ →",
     },
     reception: {
