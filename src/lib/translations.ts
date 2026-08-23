@@ -11,7 +11,7 @@ export const translations = {
       eyebrow: "With Great Joy",
       names: "Smt. Vinuta & Sri Prashanth G. Acharya",
       place: "Mullugudde, Shivapura",
-      relation: "invite you to the wedding of their brother, Pradeep Acharya",
+      relation: "",
     },
     wedding: {
       eyebrow: "The Wedding",
@@ -59,7 +59,7 @@ export const translations = {
       eyebrow: "ಅತೀವ ಸಂತೋಷದಿಂದ",
       names: "ಶ್ರೀಮತಿ ವಿನುತಾ ಮತ್ತು ಶ್ರೀ ಪ್ರಶಾಂತ್ ಜಿ. ಆಚಾರ್ಯ",
       place: "ಮುಳ್ಳುಗುಡ್ಡೆ, ಶಿವಪುರ",
-      relation: "ಅವರ ಸಹೋದರ ಪ್ರದೀಪ್ ಆಚಾರ್ಯ ಅವರ ವಿವಾಹಕ್ಕೆ ನಿಮ್ಮನ್ನು ಆಹ್ವಾನಿಸುತ್ತಾರೆ",
+      relation: "",
     },
     wedding: {
       eyebrow: "ವಿವಾಹ",
