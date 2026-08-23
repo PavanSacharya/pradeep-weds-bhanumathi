@@ -21,7 +21,7 @@ const kannada = Noto_Serif_Kannada({
 });
 
 // ---- EDIT THESE before deploying ----
-const SITE_URL = "https://pradeep-bhanumathi.wedding"; // replace with your real domain
+const SITE_URL = "https://pradeep-weds-bhanumathi.vercel.app"; // replace with your real domain
 const OG_IMAGE = `${SITE_URL}/og-image.jpg`; // 1200x630 image, put it in /public
 
 export const metadata: Metadata = {
