@@ -56,7 +56,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="mx-auto my-4 h-px w-24 origin-center bg-gradient-to-r from-transparent via-gold to-transparent"
         />
-        <span className="font-display italic text-lg text-brass">&amp;</span>
+        <span className="font-display italic text-lg text-brass">weds</span>
         <motion.div
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
