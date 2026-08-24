@@ -41,7 +41,7 @@ export const translations = {
       secs: "Secs",
     },
     blessing: {
-      quote: "Two rings, two hearts, one beautiful beginning — join us as we say \"I do.\"",
+      quote: "As two hearts become one and take a step into a new journey of life, we warmly invite you to be part of this auspicious and special occasion.",
     },
     footer: {
       note: "With love from both families",
@@ -89,7 +89,7 @@ export const translations = {
       secs: "ಸೆಕೆಂಡುಗಳು",
     },
     blessing: {
-      quote: "ಎರಡು ಉಂಗುರಗಳು, ಎರಡು ಹೃದಯಗಳು, ಒಂದು ಸುಂದರ ಆರಂಭ — ನಾವು 'ಒಪ್ಪುತ್ತೇನೆ' ಎಂದು ಹೇಳುವಾಗ ನಮ್ಮೊಂದಿಗೆ ಸೇರಿ.",
+      quote: "ಎರಡು ಹೃದಯಗಳು ಒಂದಾಗಿ, ಹೊಸ ಜೀವನದ ಪಯಣಕ್ಕೆ ಹೆಜ್ಜೆಯಿಡುವ ಈ ಶುಭ ಕ್ಷಣಕ್ಕೆ ನಿಮ್ಮನ್ನು ಆತ್ಮೀಯವಾಗಿ ಆಹ್ವಾನಿಸುತ್ತೇವೆ.",
     },
     footer: {
       note: "ಎರಡೂ ಕುಟುಂಬಗಳ ಪ್ರೀತಿಯಿಂದ",
